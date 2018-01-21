@@ -1,0 +1,30 @@
+.CampaignCard{
+  width: 250px;
+  height: 300px;
+}
+
+.card-header{
+  padding: 7px!important;
+
+}
+
+.card-link{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 1.25em;
+  font-style: italic;
+}
+
+.card-need{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  font-size: 1.25em;
+}
+
+.card-block{
+  min-height: 200px;
+  font-size: 0.75em;
+
+}

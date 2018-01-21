@@ -18,7 +18,16 @@ class Campaigns extends Component {
         <div className="col-lg-9">
           <div className="jumbotron campaign">
             <h1>Popular Campaigns</h1>
-            <CCard/>
+            <div className="container">
+              <CCard className="ccard" name="Help Me"/>
+              <CCard className="ccard" name="Donate to My Fund"/>
+              <CCard className="ccard"/>
+              <CCard className="ccard"/>
+              <CCard className="ccard"/>
+              <CCard className="ccard"/>
+              <CCard className="ccard"/>
+              <CCard className="ccard"/>
+            </div>
           </div>
         </div>
       </div>

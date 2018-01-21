@@ -10,3 +10,10 @@
   padding-top: 30px;
   font-size: 1.25em;
 }
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
