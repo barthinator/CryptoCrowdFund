@@ -11,6 +11,8 @@ class App extends Component {
   }
 
   render() {
+    document.body.style = 'background: #e7dfdd;';
+
     return (
       <div className="App">
         <Navbar></Navbar>

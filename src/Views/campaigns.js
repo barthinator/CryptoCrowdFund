@@ -1,14 +1,30 @@
 import React, { Component } from 'react';
+import Login from './login.js';
+import './css/campaign.css';
+import CCard from './campaign-card.js';
 
 
-class Home extends Component {
+class Campaigns extends Component {
   render() {
     return (
-      <div className="home">
-        <p>Campaigns</p>
+      <div className="Campaigns">
+      <div className="row">
+        <div className="col-lg-3">
+          <div className="jumbotron">
+            <Login/>
+            <p>Donate anonymously, or sign in and build up karma so people know that you are willing to support them</p>
+          </div>
+        </div>
+        <div className="col-lg-9">
+          <div className="jumbotron campaign">
+            <h1>Popular Campaigns</h1>
+            <CCard/>
+          </div>
+        </div>
+      </div>
       </div>
     );
   }
 }
 
-export default Home;
+export default Campaigns;

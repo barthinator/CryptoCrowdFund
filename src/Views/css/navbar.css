@@ -1,5 +1,9 @@
 .navbar{
-  min-height: 50px;
   padding: 10px;
   text-align: left;
+  background-color: 	#E1C5ED;
+  color: #72278E;
+}
+
+.navbar-item{
 }

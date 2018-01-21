@@ -6,6 +6,6 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.css';
 import registerServiceWorker from './registerServiceWorker';
 
-var name = "fundz"
+var name = "Crypto Crowd Fund";
 
 ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, document.getElementById('root'));

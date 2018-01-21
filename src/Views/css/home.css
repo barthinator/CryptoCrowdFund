@@ -1,0 +1,29 @@
+.jumbotron{
+  background-color: #e7dfdd!important;
+  color: #72278E;
+  text-align: center;
+}
+
+.logo{
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.jumbotron h1{
+  font-size: 4em;
+  font-weight: 500;
+}
+
+.idea h1{
+  font-size: 3.5em;
+  font-weight: 250;
+}
+
+.jumbotron p{
+  font-size: 1.5em;
+  font-weight: 150;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
