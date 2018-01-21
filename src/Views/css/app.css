@@ -1,0 +1,10 @@
+.img-header{
+  width: 100%;
+  padding: 0px;
+  height: auto;
+}
+
+.no-padding{
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
